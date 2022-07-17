@@ -1,3 +1,6 @@
+import random
+
+
 def format_text(text):
     for i in range(len(text)):
         print("#", end="")
@@ -31,6 +34,36 @@ def validate_text_input(prompt, *options):
                 print(format_text("That was not a valid input."))
         except TypeError:
             print(format_text("That was not a valid input."))
+
+
+def give_another_go(prompt1, prompt2):
+    i = 3
+    while i > 0:
+        if prompt1 == prompt2:
+            print("That is correct")
+            i = -1
+        else:
+            prompt1 = float(input("That's incorrect have another go. attempts left {}. \n".format(i)))
+            i -= 1
+    if prompt1 != prompt2:
+        print("Im sorry you have used all your goes lets move on. \n")
+
+
+def get_random_list(length_of_list):
+    random_list = []
+    for i in range(length_of_list):
+        x = round(random.uniform(1, 60), 2)
+        random_list.append(x)
+    return random_list
+
+
+def dvt(displacement=None, velocity=None, time=None):
+    if velocity is not None and time is not None:
+        return velocity * time
+    elif displacement is not None and time is not None:
+        return displacement / time
+    elif displacement is not None and velocity is not None:
+        return displacement / velocity
 
 
 def mechanics():
