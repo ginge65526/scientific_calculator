@@ -1,6 +1,6 @@
 import random as r
 import questions as q
-import test1 as func
+import functions as func
 import solutions as s
 solution_dict = {
     q.mechanics_questions[0]: s.solution_0,
@@ -55,8 +55,4 @@ while play_program == "Yes":
             chosen_question.format(*list_of_numbers)
         )
         func.give_another_go(final_question, answer)
-    play_program = func.validate_text_input(
-        "do you wish to continue this program",
-        "Yes",
-        "No"
-    )
+    play_program = func.re_use()

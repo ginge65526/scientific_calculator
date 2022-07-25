@@ -1,4 +1,4 @@
-import test1
+import functions
 
 print(
     test1.format_text(

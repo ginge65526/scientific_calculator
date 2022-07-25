@@ -1,4 +1,4 @@
-import test1
+import functions
 
 play_program = "Yes"
 while play_program == "Yes":

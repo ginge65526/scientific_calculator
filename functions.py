@@ -25,7 +25,7 @@ def validate_positive_float(prompt):
                     )
                 )
             )
-            if input_float >= 0:
+            if input_float > 0:
                 return input_float
             else:
                 print(
@@ -112,7 +112,7 @@ def re_use():
         "No"
     )
     if use_again == "Yes":
-        return True
+        return use_again
     else:
         print(
             """

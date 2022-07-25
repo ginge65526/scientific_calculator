@@ -1,5 +1,5 @@
 import math
-import test1 as func
+import functions as func
 from scipy import constants as sci
 import operator as np
 from statistics import mean

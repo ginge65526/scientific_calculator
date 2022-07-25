@@ -1,4 +1,4 @@
-import random
+'''import random
 import questions
 import test1
 import solutions
@@ -17,7 +17,7 @@ def readfile(filename):
         print(f"File {filename} is not found")
 
 
-print()
+print()'''
 
 """topic = "Mechanics"
 
@@ -44,18 +44,25 @@ final_question = test1.validate_positive_float(
 )
 test1.give_another_go(final_question, answer)"""
 
+'''import random
+import string
 
+''''''func = {"int": int, "float": float}
+input_float = func[g](input(format_text(prompt)))''''''
+# ______________________________________________________________________________________
+digits = string.digits
+letter_digit_list = list(string.digits + string.ascii_letters)
+random.shuffle(letter_digit_list)
 
+sample_str = "".join((random.choice(digits) for i in range(4)))
 
+sample_str += "".join((random.choice(letter_digit_list) for i in range(6)))
 
+alist = list(sample_str)
+random.shuffle(alist)
 
-
-
-
-
-
-
-
+final_str = "".join(alist)
+print("Random String", final_str)'''
 
 
 
