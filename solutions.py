@@ -154,6 +154,3 @@ def solution_11(*list_of_numbers):
     )
     answer = answer / sci.micro
     return answer
-
-
-math.pow(4, 7)
