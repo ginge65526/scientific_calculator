@@ -25,9 +25,41 @@ atomic_physics_questions = [
     """
     Ms Slabbert has an cube od an unknown toxic radioactive isotope. this 
     cube has mass of {} grams and a half life of {} days, calculate the energy loss after 
-    {} minutes have passed in Gigajoules.
+    {} minutes have passed in Gigajoules.y
     """,
+    """
+    a nuclear power plant has a constant power output of {} giga watts and is left running for {} days
+    calculate the mass that has been lost in that period of time in grams.
+    """,
+    """
+    a geiger counter has a reading of 2520 counts per minute when placed near a radioactive source 
+    the counter is left by the source for {} hours and now detects a count of {} counts per minute 
+    find the half-life of the radioactive source in minutes.
+    """,
+    """
+    Mr Drumm owns a fusion reactor with a constant power output of {} petawatts after a period of time
+    he uses {} metric tones of hydrogen isotopes calculate the period of time that has passed in hours.
+    """
 ]
 electromagnetism_questions = [
-
-    ]
+    """
+    A {} centimeter long wire moves through a {} millitesla magnetic field
+    at {} meters per second with {} amps. calculate the resistance of the wire in milliohms.
+    """,
+    """ 
+    a parallel circuit with a {} volt battery has 3 resistors each on one of 3 parallel wires
+    each with varying resistance of {} ohms,{} ohms and {} ohms.
+    what is the total current measured of the circuit.
+    """,
+    """
+    a parallel circuit has a voltage of {} volts, has 2 resistors
+    each with varying resistance of {} ohms and {} ohms and a lightbulb
+    with a power output of {} watts each on one of 3 parallel wires
+    what is the total current measured of the circuit.
+    """,
+    """
+    a circuit with a supply voltage of {} volts has 2 wires that are {} milli meters apart
+    one wire with a resistance of {} ohms and another with a resistance 
+    of {} ohms. what is the magnetic field strength at the half way point between the wires in microtesla.
+    """
+]

@@ -4,6 +4,7 @@ import test1
 import solutions
 from scipy import constants as sci
 
+
 def fun_print_line():
     print("==="*15)
 
@@ -16,7 +17,7 @@ def readfile(filename):
         print(f"File {filename} is not found")
 
 
-print(sci.g)
+print()
 
 """topic = "Mechanics"
 
