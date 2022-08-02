@@ -1,3 +1,4 @@
+# import necessary libraries
 import random
 import math
 
@@ -5,6 +6,7 @@ import math
 def add(*x):
     result = math.fsum(x)
     return result
+# a simple addition function
 
 
 def format_text(text):
@@ -13,6 +15,7 @@ def format_text(text):
     print("")
     text1 = text + "\n"
     return text1
+# formats a string for easy readability
 
 
 def validate_positive_float(prompt):
@@ -40,6 +43,7 @@ def validate_positive_float(prompt):
                     "That was not a valid number"
                 )
             )
+# the computer will check if a user input is a number and will then return the number as a float
 
 
 def validate_text_input(prompt, *options):
@@ -67,6 +71,7 @@ def validate_text_input(prompt, *options):
                     "That was not a valid input."
                 )
             )
+# the computer will check if a user input is a string and will return the input value
 
 
 def give_another_go(x1, x2):
@@ -82,6 +87,7 @@ def give_another_go(x1, x2):
             i -= 1
     if not(math.isclose(x1, x2, rel_tol=0.05)):
         print("Im sorry you have used all your goes lets move on. \n")
+# lets the user have extra goes incase they maka a mistake in their working
 
 
 def get_random_list(length_of_list):
@@ -90,6 +96,7 @@ def get_random_list(length_of_list):
         x = round(random.uniform(1, 60), 2)
         random_list.append(x)
     return random_list
+# generates random list of floats rounded to 2 DP
 
 
 def dvt(
@@ -103,6 +110,7 @@ def dvt(
         return displacement / time
     elif displacement is not None and velocity is not None:
         return displacement / velocity
+# multiplication function for displacement, velocity and time
 
 
 def re_use():
@@ -122,3 +130,4 @@ def re_use():
             """
         )
         return False
+# asks the user if they would like to reuse the program

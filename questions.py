@@ -1,3 +1,4 @@
+# this is a list of questions about mechanics
 mechanics_questions = [
         """
          a boat used to cross a river has an average speed of {} meters per second.
@@ -21,6 +22,7 @@ mechanics_questions = [
         when they reached half their final velocity
         """
     ]
+# this is a list of questions about atomic physics
 atomic_physics_questions = [
     """
     Ms Slabbert has an cube od an unknown toxic radioactive isotope. this 
@@ -41,6 +43,7 @@ atomic_physics_questions = [
     he uses {} metric tones of hydrogen isotopes calculate the period of time that has passed in hours.
     """
 ]
+# this is a list of questions about electromagnetism
 electromagnetism_questions = [
     """
     A {} centimeter long wire moves through a {} millitesla magnetic field

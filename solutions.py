@@ -1,3 +1,4 @@
+# import necessary libraries
 import math
 import functions as func
 from scipy import constants as sci
@@ -154,3 +155,4 @@ def solution_11(*list_of_numbers):
     )
     answer = answer / sci.micro
     return answer
+# a bunch of complicated math equations the computer uses to work out the answer before it asks the user the answer
