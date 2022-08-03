@@ -110,7 +110,13 @@ def solution_6(*list_of_numbers):
 
 
 def solution_7(*list_of_numbers):
-    answer = np.truediv(np.mul((list_of_numbers[1] * sci.metric_ton), (sci.c ** 2)), (list_of_numbers[0] * sci.peta))
+    answer = np.truediv(
+        np.mul(
+            (list_of_numbers[1] * sci.metric_ton),
+            (sci.c ** 2)
+        ),
+        (list_of_numbers[0] * sci.peta)
+    )
     answer = answer / sci.hour
     return answer
 

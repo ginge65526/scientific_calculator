@@ -60,6 +60,7 @@ while play_program == "Yes":
         list_of_numbers = func.get_random_list(
             chosen_question.count("{}")
         )
+        # uses the solution dictionary and calls the function
         answer = solution_dict[chosen_question](*list_of_numbers)
         final_question = func.validate_positive_float(
             chosen_question.format(*list_of_numbers)

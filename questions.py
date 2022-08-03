@@ -27,7 +27,7 @@ atomic_physics_questions = [
     """
     Ms Slabbert has an cube od an unknown toxic radioactive isotope. this 
     cube has mass of {} grams and a half life of {} days, calculate the energy loss after 
-    {} minutes have passed in Gigajoules.y
+    {} minutes have passed in Gigajoules.
     """,
     """
     a nuclear power plant has a constant power output of {} giga watts and is left running for {} days
